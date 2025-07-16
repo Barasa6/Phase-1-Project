@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mc Millians Library </title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <h1>Mc Millian Library Book Search</h1>
+        <p>Find books available in our library</p>
+    </header>
+
+    <div class="container">
+        <section class="search-section">
+            <h2>Search Our Collection</h2>
+            <div class="search-box">
+                <input type="text" id="search-input" placeholder="Enter book title, author, or ISBN...">
+                <button id="search-btn">Search</button>
+            </div>
+        </section>
+
+        <section id="results-container">
+            <!-- Results will be displayed here -->
+            <h2>Search Results</h2>
+            <div id="results"></div>
+        </section>
+    </div>
+
+    <div class="loading" id="loading" style="display:none;">
+        <p>Loading...</p>
+
+    <footer>
+        <p>&copy; 2023 School Library Book Search</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
